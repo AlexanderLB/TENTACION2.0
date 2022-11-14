@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@300&family=Roboto+Mono:wght@100;700&display=swap');
+
 body{
     background-image: url('IMG/tentacion1.png');
     background-size: cover;
@@ -16,12 +18,43 @@ p{
     color: white;
     margin: 0cm 1cm 1cm 1cm;
 }
+ul li{
+    list-style: circle;
+}
 
 .container{    
     color: white;
 }
 
-.links_style{
+.lnks{
+    text-decoration-line: underline;
+    color: white;
+}
+
+.back_links{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.back{
     text-decoration: none;
     color: white;
+    margin-left: 0.5cm;
+    font-family: 'Roboto Mono';
+    text-decoration-line: underline;
+    filter: drop-shadow(0px 0px 10px #ffffff);
+}
+
+.drinks{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6.5cm;
+    font-family: 'Roboto Mono';
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(0cm 0cm 10cm white);
+    text-decoration-line: underline;
+    filter: drop-shadow(0px 0px 10px #ffffff);
 }
