@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@300&family=Roboto+Mono:wght@100;700&display=swap');
+
 body{
     background-image: url('IMG/tentacion1.png');
     background-size: cover;
@@ -29,6 +31,8 @@ ul li{
     color: #ffffff;
     filter: drop-shadow(0px 0px 10px #ffffff);
     margin-left: 1%;
+    font-family: 'Roboto Mono';
+    font-weight: bold;    
 }
 
 .back{
@@ -36,6 +40,8 @@ ul li{
     color: #ffffff;
     margin-left: 18%;
     filter: drop-shadow(0px 0px 10px #ffffff);
+    font-family: 'Roboto Mono';
+    font-weight: bold;
 }
 
 .bbds{
@@ -43,5 +49,7 @@ ul li{
     color: #ffffff;
     margin-left: 22%;
     filter: drop-shadow(0px 0px 10px #ffffffff);
+    font-family: 'Roboto Mono';
+    font-weight: bold;
 }
 

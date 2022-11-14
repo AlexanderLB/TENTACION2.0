@@ -25,12 +25,10 @@ ul li{
 .container{    
     color: white;
 }
-
 .lnks{
     text-decoration-line: underline;
     color: white;
 }
-
 .back_links{
     display: flex;
     flex-direction: row;
@@ -40,9 +38,9 @@ ul li{
 .back{
     text-decoration: none;
     color: white;
+    font-weight: bold;
     margin-left: 0.5cm;
     font-family: 'Roboto Mono';
-    text-decoration-line: underline;
     filter: drop-shadow(0px 0px 10px #ffffff);
 }
 
@@ -52,9 +50,8 @@ ul li{
     margin-left: 6.5cm;
     font-family: 'Roboto Mono';
     text-align: right;
+    font-weight: bold;
     text-decoration: none;
     color: white;
-    filter: drop-shadow(0cm 0cm 10cm white);
-    text-decoration-line: underline;
-    filter: drop-shadow(0px 0px 10px #ffffff);
+    filter: drop-shadow(0px 0px 10px white);
 }
